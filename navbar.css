@@ -1,26 +1,21 @@
-ul{
+#topNav li{
+    text-decoration: none;
+    display: inline;
+    float: right;
+    padding: 15px;
+}
 
-}
-#topBar li{
-  text-decoration: none;
-  display: inline;
-  float: right;
-  padding: 15px;
-}
-li:hover{
+#topNav li:hover{
   background-color: black;
-
-
-a{
-  height: 100%
-   text-decoraton: none;
-   font-family: monospace;
-   font-size: 15px;
-   color: orange;
 }
 
+#topNav li a{
+     text-decoration: none;
+     font-family:monospace;
+     font-size: 45px;
+     color: orange;
+}
 
-a:hover{
+#topNav li a:hover{
   color: yellow;
-
 }
